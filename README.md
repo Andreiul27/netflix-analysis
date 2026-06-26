@@ -1,21 +1,21 @@
-# Netflix Movie Analysis
+# Netflix 90s Movie Analysis
 
 ## Overview
-Analyzed 5,000+ Netflix titles to identify trends in content type, 
-release years, and genre popularity across different regions.
+Analyzed a Netflix dataset to explore movie trends specifically from the 1990s, 
+focusing on film duration patterns and the prevalence of short action movies.
 
 ## Goals / Questions I explored
-- Has Netflix shifted toward more TV shows than movies over time?
-- Which genres dominate in different countries?
-- What's the average movie duration trend over the years?
+- What was the most common (mode) movie duration in the 1990s?
+- How many short action movies (under 90 minutes) were released in the 1990s?
+- What trends existed in Netflix movie content from 1990 to 1999?
 
 ## Tools & Libraries
-Python, pandas, matplotlib, seaborn
+Python, pandas, matplotlib
 
 ## Key Findings
-- TV show additions grew 3x faster than movies after 2015
-- Dramas are the most common genre globally
-- Average movie length has decreased by ~10 mins since 2000
+- The most frequent movie duration among 1990s Netflix titles was **94 minutes**
+- There were **7** short action movies (under 90 minutes) from the 1990s
+- Filtered and cleaned real Netflix data, including duration format conversion (e.g., "90 min" → 90)
 
 ## Dataset
-Source: Kaggle Netflix Dataset
+Source: netflix_data.csv
